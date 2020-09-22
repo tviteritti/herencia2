@@ -22,7 +22,7 @@ public class Futbolista extends Persona {
 
 	@Override
 	public String toString() {
-		return "Futbolista [dorsal=" + dorsal + ", posicion=" + posicion + "]";
+		return "Datos del Futbolista ["+super.toString() +"\ndorsal=" + dorsal + "\nposicion=" + posicion + "]";
 	}
 	
 	

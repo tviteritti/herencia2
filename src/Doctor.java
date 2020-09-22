@@ -23,7 +23,7 @@ public class Doctor extends Persona{
 
 	@Override
 	public String toString() {
-		return "Doctor [titulacion=" + titulacion + ", experiencia=" + experiencia + "]";
+		return "Datos del Doctor ["+super.toString()+"\ntitulacion=" + titulacion + "\nexperiencia=" + experiencia + "]";
 	}
 		
 			

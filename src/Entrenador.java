@@ -13,7 +13,7 @@ public class Entrenador extends Persona{
 
 	@Override
 	public String toString() {
-		return "Entrenador [formacion=" + formacion + "]";
+		return "Datos del Entrenador ["+super.toString()+"\nformacion=" + formacion + "]";
 	}
 
 
